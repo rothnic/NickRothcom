@@ -19,7 +19,8 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html'),
-             ('Home Page', 'http://www.astro.washington.edu/users/vanderplas')]
+             ('Home Page', 'http://www.nickroth.com'),
+			 ('LinkedIn', 'https://www.linkedin.com/in/nicholasleeroth')]
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
@@ -52,7 +53,7 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
-THEME = 'pelican-themes/html5-dopetrope/'
+THEME = 'pelican-themes/html5-dopetrope'
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
