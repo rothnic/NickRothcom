@@ -5,7 +5,7 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://jakevdp.github.io'
+SITEURL = 'http://rothnic.github.io'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -14,5 +14,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Uncomment following line for absolute URLs in production:
 #RELATIVE_URLS = False
 
-GOOGLE_ANALYTICS = 'UA-34061646-1'
-DISQUS_SITENAME = 'pythonicperambulations'
+GOOGLE_ANALYTICS = 'UA-49251486-1'
+DISQUS_SITENAME = 'nickroth'

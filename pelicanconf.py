@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 import os
 
-AUTHOR = u'Jake Vanderplas'
+AUTHOR = u'Nick Roth'
 
-SITENAME = u'Pythonic Perambulations'
-SITESUBTITLE = u'Musings and ramblings through the world of Python and beyond'
+SITENAME = u'nickroth.com'
+SITESUBTITLE = u'Systems engineering, analytics, programming'
 SITEURL = '' # change in publishconf.py
 
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-TIMEZONE = 'US/Pacific'
+TIMEZONE = 'US/Central'
 DEFAULT_LANG = u'en'
 
 # Set the article URL
@@ -23,10 +23,10 @@ MENUITEMS = [('Archives', '/archives.html'),
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
-#GITHUB_USER = 'jakevdp'
+GITHUB_USER = 'rothnic'
 #GITHUB_REPO_COUNT = 0
 #GITHUB_SKIP_FORK = True
-#GITHUB_SHOW_USER_LINK = True
+GITHUB_SHOW_USER_LINK = True
 
 # Blogroll
 #LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
@@ -52,7 +52,7 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
-THEME = 'pelican-octopress-theme/'
+THEME = 'pelican-themes/html5-dopetrope/'
 PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
@@ -76,8 +76,8 @@ else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Sharing
-TWITTER_USER = 'jakevdp'
-GOOGLE_PLUS_USER = 'jakevdp'
+TWITTER_USER = 'rothnic'
+GOOGLE_PLUS_USER = 'NickRoth86'
 GOOGLE_PLUS_ONE = True
 GOOGLE_PLUS_HIDDEN = False
 FACEBOOK_LIKE = False
@@ -86,7 +86,7 @@ TWITTER_LATEST_TWEETS = True
 TWITTER_FOLLOW_BUTTON = True
 TWITTER_TWEET_COUNT = 3
 TWITTER_SHOW_REPLIES = 'false'
-TWITTER_SHOW_FOLLOWER_COUNT = 'true'
+TWITTER_SHOW_FOLLOWER_COUNT = 'false'
 
 
 # RSS/Atom feeds
