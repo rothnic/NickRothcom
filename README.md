@@ -1,6 +1,7 @@
-Pythonic Perambulations
+NickRoth.com
 -----------------------
-This is the source of my [Pythonic Perambulations](http://jakevdp.github.io)
+This is the source of my website
+It is a fork of [Pythonic Perambulations](http://jakevdp.github.io)
 blog. It is built using the [Pelican](http://blog.getpelican.com/)
 blogging platform.
 
