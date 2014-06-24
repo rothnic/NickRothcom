@@ -8,6 +8,8 @@ SITENAME = u'nickroth.com'
 SITESUBTITLE = u'Systems engineering, analytics, programming'
 SITEURL = '' # change in publishconf.py
 
+PATH = 'content'
+
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
 TIMEZONE = 'US/Central'
