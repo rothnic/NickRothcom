@@ -53,12 +53,12 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
-THEME = 'pelican-themes/html5-dopetrope'
-PLUGIN_PATH = 'pelican-plugins'
-PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal']
-
+THEME = 'semantic-pelican'
+PLUGIN_PATH = './pelican-plugins'
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+		   'liquid_tags.youtube', 'liquid_tags.vimeo',
+		   'liquid_tags.include_code', 'liquid_tags.notebook',
+		   'summary']
 DISPLAY_PAGES_ON_MENU = False
 
 

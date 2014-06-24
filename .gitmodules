@@ -7,3 +7,6 @@
 [submodule "pelican-themes"]
 	path = pelican-themes
 	url = git://github.com/getpelican/pelican-themes.git
+[submodule "semantic-pelican"]
+	path = semantic-pelican
+	url = git://github.com/rothnic/semantic-pelican.git
