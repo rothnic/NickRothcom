@@ -4,7 +4,7 @@ import os
 
 AUTHOR = u'Nick Roth'
 
-SITENAME = u'nickroth.com'
+SITENAME = u'nickroth'
 SITESUBTITLE = u'Systems engineering, analytics, programming'
 SITEURL = '' # change in publishconf.py
 
