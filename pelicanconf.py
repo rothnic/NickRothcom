@@ -55,7 +55,7 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plugins
-THEME = 'semantic-pelican'
+THEME = 'theme/notebook-simpler'
 PLUGIN_PATH = './pelican-plugins'
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
 		   'liquid_tags.youtube', 'liquid_tags.vimeo',

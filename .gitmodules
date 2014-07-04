@@ -10,3 +10,9 @@
 [submodule "semantic-pelican"]
 	path = semantic-pelican
 	url = git://github.com/rothnic/semantic-pelican.git
+[submodule "pure-single"]
+	path = pure-single
+	url = git://github.com/rothnic/pure-single
+[submodule "holo-pelican"]
+	path = holo-pelican
+	url = https://github.com/rothnic/holo-pelican
