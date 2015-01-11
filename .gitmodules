@@ -3,16 +3,16 @@
 	url = https://github.com/getpelican/pelican-plugins
 [submodule "pelican-octopress-theme"]
 	path = pelican-octopress-theme
-	url = git@github.com:jakevdp/pelican-octopress-theme.git
+	url = https://github.com:jakevdp/pelican-octopress-theme
 [submodule "pelican-themes"]
 	path = pelican-themes
-	url = git://github.com/getpelican/pelican-themes.git
+	url = https://github.com/getpelican/pelican-themes
 [submodule "semantic-pelican"]
 	path = semantic-pelican
-	url = git://github.com/rothnic/semantic-pelican.git
+	url = https://github.com/rothnic/semantic-pelican
 [submodule "pure-single"]
 	path = pure-single
-	url = git://github.com/rothnic/pure-single
+	url = https://github.com/rothnic/pure-single
 [submodule "holo-pelican"]
 	path = holo-pelican
 	url = https://github.com/rothnic/holo-pelican
