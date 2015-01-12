@@ -42,7 +42,8 @@ GITHUB_SHOW_USER_LINK = True
 DEFAULT_PAGINATION = 10
 
 # This requires Pelican 3.3+
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
