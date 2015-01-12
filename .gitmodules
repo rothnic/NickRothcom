@@ -1,9 +1,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins
-[submodule "pelican-themes"]
-	path = pelican-themes
-	url = https://github.com/getpelican/pelican-themes
-[submodule "pure-single"]
-	path = pure-single
-	url = https://github.com/rothnic/pure-single
+[submodule "theme/pelican-bootstrap3"]
+	path = theme/pelican-bootstrap3
+	url = https://github.com/rothnic/pelican-bootstrap3

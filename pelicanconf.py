@@ -5,7 +5,7 @@ import os
 AUTHOR = u'Nick Roth'
 
 SITENAME = u'nickroth'
-SITESUBTITLE = u'Systems engineering, analytics, programming'
+SITESUBTITLE = u'Systems engineering, data analytics, programming'
 SITEURL = ''  # change in publishconf.py
 
 PATH = 'content'
@@ -20,9 +20,7 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
-MENUITEMS = [('Archives', '/archives.html'),
-             ('Home Page', 'http://www.nickroth.com'),
-             ('LinkedIn', 'https://www.linkedin.com/in/nicholasleeroth')]
+MENUITEMS = [('LinkedIn', 'https://www.linkedin.com/in/nicholasleeroth')]
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
@@ -43,21 +41,15 @@ GITHUB_SHOW_USER_LINK = True
 
 DEFAULT_PAGINATION = 10
 
-# STATIC_OUT_DIR requires https://github.com/jakevdp/pelican/tree/specify-static
-#STATIC_OUT_DIR = ''
-#STATIC_PATHS = ['images', 'figures', 'downloads']
-#FILES_TO_COPY = [('favicon.png', 'favicon.png')]
-
 # This requires Pelican 3.3+
 STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
-
 # Theme and plugins
-THEME = 'pelican-themes/pelican-bootstrap3'
-PLUGIN_PATH = './pelican-plugins'
+THEME = 'theme/pelican-bootstrap3'
+PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook',
@@ -102,3 +94,7 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+
+# Bootstrap
+BOOTSTRAP_THEME = 'paper'
+BOOTSTRAP_NAVBAR_INVERSE = True
