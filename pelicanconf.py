@@ -6,7 +6,7 @@ AUTHOR = u'Nick Roth'
 
 SITENAME = u'nickroth'
 SITESUBTITLE = u'Systems engineering, analytics, programming'
-SITEURL = '' # change in publishconf.py
+SITEURL = ''  # change in publishconf.py
 
 PATH = 'content'
 
@@ -22,7 +22,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html'),
              ('Home Page', 'http://www.nickroth.com'),
-			 ('LinkedIn', 'https://www.linkedin.com/in/nicholasleeroth')]
+             ('LinkedIn', 'https://www.linkedin.com/in/nicholasleeroth')]
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
@@ -54,13 +54,14 @@ STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
+
 # Theme and plugins
-THEME = 'theme/notebook-simpler'
+THEME = 'pelican-themes/pelican-bootstrap3'
 PLUGIN_PATH = './pelican-plugins'
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
-		   'liquid_tags.youtube', 'liquid_tags.vimeo',
-		   'liquid_tags.include_code', 'liquid_tags.notebook',
-		   'summary']
+           'liquid_tags.youtube', 'liquid_tags.vimeo',
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'summary']
 DISPLAY_PAGES_ON_MENU = False
 
 
@@ -76,7 +77,9 @@ if not os.path.exists('_nb_header.html'):
     warnings.warn("_nb_header.html not found.  "
                   "Rerun make html to finalize build.")
 else:
-    EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+    EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8').replace(
+        "highlight ", "highlight-ipynb ")
+
 
 # Sharing
 TWITTER_USER = 'rothnic'
