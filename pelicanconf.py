@@ -7,6 +7,7 @@ AUTHOR = u'Nick Roth'
 SITENAME = u'nickroth'
 SITESUBTITLE = u'Systems engineering, data analytics, programming'
 SITEURL = ''  # change in publishconf.py
+DISQUS_SITENAME = 'nickroth'
 
 PATH = 'content'
 

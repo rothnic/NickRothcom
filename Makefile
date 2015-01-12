@@ -6,7 +6,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-DEPLOYREPOSITORY=rothnic.github.io
+DEPLOYREPOSITORY=nickroth.github.io
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -83,5 +83,9 @@ deploy: publish
 	rsync -r $(OUTPUTDIR)/* _build/$(DEPLOYREPOSITORY)/
 	cd _build/$(DEPLOYREPOSITORY) && git add . && git commit -m "make deploy"
 	cd _build/$(DEPLOYREPOSITORY) && git push origin master
+
+github:
+	pelican content -o $(OUTPUTDIR) -s $(CONFFILE) && ghp-import $(OUTPUTDIR) && git push origin gh-pages
+
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
