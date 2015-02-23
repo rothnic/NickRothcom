@@ -9,12 +9,12 @@ AUTHOR = u'Nick Roth'
 
 SITENAME = u'nickroth'
 SITESUBTITLE = u'Systems engineering, data analytics, programming'
-SITEURL = 'http://nickroth.com'  # change in publishconf.py
+SITEURL = '' #change in publishconf.py
 RELATIVE_URLS = True
 DISQUS_SITENAME = 'nickroth'
 GOOGLE_ANALYTICS = 'UA-49251486-1'
 
-PATH = 'content'
+PATH = os.path.join(project_path, 'content')
 
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
