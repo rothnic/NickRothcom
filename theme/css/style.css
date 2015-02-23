@@ -1,5 +1,6 @@
 body {
     padding-top: 70px;
+    line-height: 1.1;
 }
 
 #sidebar .list-group, #sidebar .list-group-item {
@@ -12,7 +13,7 @@ body {
 }
 
 /* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has paddimg already 
+   padding of the last item, b/c the containing item has paddimg already
  */
 .list-group-item .list-group-item:last-child {
     padding-bottom: 0px;
@@ -35,11 +36,11 @@ body {
 }
 
 .tag-3 {
-    font-size: 8pt;
+    font-size: 9pt;
 }
 
 .tag-4 {
-    font-size: 6pt;
+    font-size: 8pt;
 }
 
 #aboutme {
@@ -175,7 +176,7 @@ figure.floatcenter, .align-center {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: scroll;
-    background-size: cover; 
+    background-size: cover;
     background-color: #C4C4C4;
     margin: 0 0 20px;
     padding: 70px 0; /*controls padding around inner text*/
@@ -220,4 +221,32 @@ figure.floatcenter, .align-center {
     #banner .intro{
         font-size: 16px;
     }
+}
+
+/* Handle Ipython Notebook */
+td, th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: 30px;
+}
+
+div.prompt {
+  text-align: left;
+}
+
+div.output_prompt {
+  float: left;
+}
+
+.output_text, .output_html {
+  margin-left: 70px;
+}
+
+.entry-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }

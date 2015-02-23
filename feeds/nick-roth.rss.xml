@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nickroth</title><link>/</link><description>Systems engineering, data analytics, programming</description><atom:link href="/feeds/nick-roth.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Oct 2014 10:20:00 -0500</lastBuildDate><item><title>Using PaCal for Simple Math on Probability Distributions</title><link>/blog/2014/10/03/pacal-example/</link><description>&lt;p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nickroth</title><link>http://nickroth.com/</link><description>Systems engineering, data analytics, programming</description><atom:link href="http://nickroth.com/feeds%5Cnick-roth.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 03 Oct 2014 10:20:00 -0500</lastBuildDate><item><title>The State of the Data Landscape</title><link>http://nickroth.com/blog/2014/10/03/data-landscape/</link><description>&lt;h1&gt;&lt;/h1&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nick Roth</dc:creator><pubDate>Fri, 03 Oct 2014 10:20:00 -0500</pubDate><guid>tag:nickroth.com,2014-10-03:blog/2014/10/03/data-landscape/</guid><category>data science</category><category>MOOC</category></item><item><title>Using PaCal for Simple Math on Probability Distributions</title><link>http://nickroth.com/blog/2014/10/03/pacal-example/</link><description>&lt;p&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;
@@ -674,7 +674,7 @@ CCGEEEIIIYS4rP8PQQ/V0B/2rxEAAAAASUVORK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nick Roth</dc:creator><pubDate>Fri, 03 Oct 2014 10:20:00 -0500</pubDate><guid>tag:,2014-10-03:blog/2014/10/03/pacal-example/</guid><category>probability</category><category>python</category></item><item><title>Kaggle Bikesharing Regression with Scikit-Learn</title><link>/blog/2014/06/28/bikesharing-regression/</link><description>&lt;p&gt;
+&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nick Roth</dc:creator><pubDate>Fri, 03 Oct 2014 10:20:00 -0500</pubDate><guid>tag:nickroth.com,2014-10-03:blog/2014/10/03/pacal-example/</guid><category>probability</category><category>python</category></item><item><title>Kaggle Bikesharing Regression with Scikit-Learn</title><link>http://nickroth.com/blog/2014/06/28/bikesharing-regression/</link><description>&lt;p&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;
@@ -2160,4 +2160,4 @@ In&amp;nbsp;[]:
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nick Roth</dc:creator><pubDate>Sat, 28 Jun 2014 11:32:00 -0500</pubDate><guid>tag:,2014-06-28:blog/2014/06/28/bikesharing-regression/</guid><category>kaggle</category><category>python</category><category>scikit-learn</category></item></channel></rss>
+&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nick Roth</dc:creator><pubDate>Sat, 28 Jun 2014 11:32:00 -0500</pubDate><guid>tag:nickroth.com,2014-06-28:blog/2014/06/28/bikesharing-regression/</guid><category>kaggle</category><category>python</category><category>scikit-learn</category></item></channel></rss>
