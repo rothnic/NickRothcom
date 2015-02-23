@@ -96,7 +96,6 @@ def preview():
 
 def gh_pages():
     """Publish to GitHub Pages"""
-    clean()
     preview()
     local("ghp-import {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
