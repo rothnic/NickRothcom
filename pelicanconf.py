@@ -14,7 +14,7 @@ RELATIVE_URLS = True
 DISQUS_SITENAME = 'nickroth'
 GOOGLE_ANALYTICS = 'UA-49251486-1'
 
-PATH = os.path.join(project_path, 'content')
+PATH = 'content'
 
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
@@ -49,8 +49,9 @@ DEFAULT_PAGINATION = 10
 
 # This requires Pelican 3.3+
 # Copies files on build. CNAME supports custom hostname with gh-pages
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+CNAME = os.path.join('extra', 'CNAME')
+STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png', CNAME]
+EXTRA_PATH_METADATA = {CNAME: {'path': 'CNAME'}}
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'

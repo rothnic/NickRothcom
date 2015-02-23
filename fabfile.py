@@ -34,7 +34,7 @@ def clean():
 
 def build():
     """Build local version of site"""
-    local('pelican -s ' + env.pelican_config)
+    local('pelican content -s ' + env.pelican_config)
 
 def rebuild():
     """`clean` then `build`"""
@@ -71,7 +71,7 @@ def develop():
 
 def preview():
     """Build production version of site"""
-    local('pelican -s publishconf.py')
+    local('pelican content -s publishconf.py')
 
 # def cf_upload():
 #     """Publish to Rackspace Cloud Files"""
